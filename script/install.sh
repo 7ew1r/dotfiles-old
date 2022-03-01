@@ -8,3 +8,4 @@ ln -sfv $HOME/dotfiles/.config/nvim $HOME/.config
 ln -sfv $HOME/dotfiles/.config/powerline $HOME/.config
 ln -sfv $HOME/dotfiles/.czrc $HOME/.czrc
 ln -sfv $HOME/dotfiles/.tigrc $HOME/.tigrc
+ln -sfv $HOME/dotfiles/.config/topgrade.toml $HOME/.config

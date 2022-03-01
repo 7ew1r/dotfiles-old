@@ -86,4 +86,5 @@ unlink $HOME/.config/fish
 unlink $HOME/.config/fisher
 unlink $HOME/.czrc
 unlink $HOME/.tigrc
+unlink $HOME/.config/topgrade.toml
 ```
