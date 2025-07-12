@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-nuxt-app": "^4.0.0"
+  }
+}

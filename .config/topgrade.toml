@@ -1,8 +1,9 @@
+[misc]
 # Don't ask for confirmations
 #assume_yes = true
 
 # Disable specific steps - same options as the command line flag
-disable = ["system", "git_repos", "pnpm"]
+disable = ["system", "git_repos", "containers", "pnpm", "gem"]
 
 # Ignore failures for these steps
 #ignore_failures = ["powershell"]

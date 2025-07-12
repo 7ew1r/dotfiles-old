@@ -10,10 +10,23 @@ if test -d $HOME/.anyenv
   anyenv init - fish | source
 end
 
-# thefuck
-thefuck --alias | source 
+# pyenv
+set PATH $PYENV_ROOT/shims $PATH
 
-set PATH /usr/local/bin /usr/sbin $HOME/development/flutter/bin $PATH
+set JAVA_HOME '/Applications/Android Studio.app/Contents/jre/Contents/Home'
+
+# dart
+set PATH $HOME/.pub-cache/bin $PATH
+
+# Java
+set PATH (brew --prefix java)/bin $PATH
+
+set PATH /usr/local/bin /usr/sbin $HOME/development/flutter/bin $HOME/.cargo/bin $PATH
+set PATH (brew --prefix grep)/libexec/gnubin $PATH
+set MANPATH (brew --prefix grep)/libexec/gnuman $PATH
+set PATH (brew --prefix curl)/bin $PATH
+set PATH (brew --prefix bison)/bin $PATH
+set PATH (brew --prefix re2)/bin $PATH
 
 if test -d $HOME/.anyenv
   pyenv init - | source
@@ -37,3 +50,4 @@ starship init fish | source
 
 # own scripts
 set PATH ~/myscripts $PATH
+
